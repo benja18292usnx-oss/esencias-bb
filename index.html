@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#14110e">
+  <meta name="description" content="Esencias BB (B.B Esencias). Aromatizadores para el hogar: home spray y difusor con varillas. Perfuma tus momentos.">
+  <meta name="color-scheme" content="light">
+  <meta property="og:title" content="Esencias BB — Perfuma tus momentos">
+  <meta property="og:description" content="Fragancias para el hogar en Home Spray y difusor con varillas. Souvenirs para eventos.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <title>Esencias BB — Perfuma tus momentos</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%14110e'/%3E%3Ccircle cx='32' cy='32' r='22' fill='none' stroke='%23C4A35A' stroke-width='1.4'/%3E%3Ctext x='32' y='39' text-anchor='middle' font-family='Georgia,serif' font-size='20' fill='%23C4A35A' font-weight='700'%3EBB%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#fragancias">Ir a las fragancias</a>
+
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="Esencias BB, inicio">
+      <span class="brand-mark" aria-hidden="true">BB</span>
+      <span class="brand-name">Esencias BB</span>
+    </a>
+    <details class="menu">
+      <summary class="menu-btn" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </summary>
+      <nav class="menu-panel" aria-label="Secciones">
+        <a href="#fragancias">Fragancias</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#souvenirs">Souvenirs</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </details>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-ornament" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <div class="monogram" aria-hidden="true">
+          <span>BB</span>
+        </div>
+        <p class="eyebrow">B.B Esencias</p>
+        <h1>Esencias BB</h1>
+        <p class="slogan">Perfuma tus momentos</p>
+        <p class="hero-lead">Aromatizadores para el hogar, en Home Spray, difusor con varillas y spray de cartera o textil. Siete fragancias para acompañar tu día.</p>
+        <a class="btn btn-gold" href="#fragancias">Explorar fragancias</a>
+      </div>
+    </section>
+
+    <section class="fragancias" id="fragancias" aria-labelledby="frag-title">
+      <div class="frag-bg" id="fragBg" aria-hidden="true"></div>
+      <div class="section-head frag-head">
+        <p class="eyebrow">Colección</p>
+        <h2 id="frag-title">Nuestras fragancias</h2>
+        <p class="hint" id="carousel-hint">Deslizá o arrastrá para ver cada aroma. Tocá el envase para pasar de Home Spray a difusor y al spray de cartera.</p>
+      </div>
+
+      <div
+        class="carousel"
+        id="carousel"
+        tabindex="0"
+        role="region"
+        aria-roledescription="carrusel"
+        aria-labelledby="frag-title"
+        aria-describedby="carousel-hint"
+      >
+        <div class="track" id="track"></div>
+        <button type="button" class="arrow prev" id="prev" aria-label="Fragancia anterior">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 4.5 8 12l7.5 7.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button type="button" class="arrow next" id="next" aria-label="Fragancia siguiente">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 4.5 16 12l-7.5 7.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+
+      <div class="carousel-ui">
+        <div class="dots" id="dots" role="tablist" aria-label="Elegir fragancia"></div>
+        <p class="counter" id="counter" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="about" id="nosotros" aria-labelledby="about-title">
+      <div class="about-inner">
+        <p class="eyebrow">La marca</p>
+        <h2 id="about-title">Sobre nosotros</h2>
+        <div class="gold-rule" aria-hidden="true"></div>
+        <p>En <strong>Esencias BB</strong> —también <strong>B.B Esencias</strong>— creamos aromatizadores para el hogar con un mismo propósito: perfumar tus momentos.</p>
+        <p>Cada aroma se ofrece en <strong>Home Spray de 250 ml</strong> ($9.990), en <strong>difusor con varillas</strong> ($10.499) y en <strong>spray de cartera / textil</strong> ($5.999), en envases de vidrio con nuestra etiqueta crema y el monograma BB. Pensamos fragancias para lo cotidiano: una siesta de verano, una mesa compartida, un rincón en calma.</p>
+        <p>Somos de Argentina y preparamos cada consulta con calma, para ayudarte a elegir el aroma que va con tu casa o con tu evento.</p>
+      </div>
+    </section>
+
+    <section class="souvenirs" id="souvenirs" aria-labelledby="souvenirs-title">
+      <div class="souvenirs-inner">
+        <p class="eyebrow">Eventos</p>
+        <h2 id="souvenirs-title">Souvenirs para eventos</h2>
+        <div class="gold-rule" aria-hidden="true"></div>
+        <p>Sorprendé a tus invitados con un recuerdo que se lleva el aroma de tu celebración. Armamos <strong>bolsitas personalizadas</strong> con nuestras fragancias, pensadas para casamientos, cumpleaños, bautismos y reuniones.</p>
+        <p>Escribinos por Instagram o WhatsApp y lo preparamos juntos. Consultá precio según cantidad y aroma.</p>
+        <div class="souvenirs-actions">
+          <a class="btn btn-gold" id="souvenirs-wa" href="#">Consultar por souvenirs</a>
+          <a class="btn btn-ghost" href="https://www.instagram.com/b.b_esencias_difusores/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacto" id="contacto" aria-labelledby="contacto-title">
+      <div class="contacto-inner">
+        <p class="eyebrow">Hablemos</p>
+        <h2 id="contacto-title">Contacto</h2>
+        <div class="gold-rule" aria-hidden="true"></div>
+        <p>Consultá disponibilidad, aromas y souvenirs. Te respondemos por Instagram o WhatsApp.</p>
+        <div class="contact-actions">
+          <a class="ig-btn" href="https://www.instagram.com/b.b_esencias_difusores/" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm0 2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm5 2.8A4.2 4.2 0 1 1 7.8 12 4.2 4.2 0 0 1 12 7.8zm0 2A2.2 2.2 0 1 0 14.2 12 2.2 2.2 0 0 0 12 9.8zM17.4 6.5a1 1 0 1 1-1 1 1 1 0 0 1 1-1z"/></svg>
+            <span>@b.b_esencias_difusores</span>
+          </a>
+          <a class="btn btn-gold" id="contact-wa" href="#">Consultar por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="brand-mark mini" aria-hidden="true">BB</span>
+    <p>Esencias BB · B.B Esencias</p>
+    <p class="slogan-foot">Perfuma tus momentos</p>
+    <p class="fine">Argentina</p>
+</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
